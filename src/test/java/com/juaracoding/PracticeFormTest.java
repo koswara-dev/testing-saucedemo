@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class PracticeFormTest {
@@ -16,7 +17,9 @@ public class PracticeFormTest {
     private PracticeFormPage practiceFormPage;
 
     @BeforeMethod
-    public void setUp() {
+    @Parameters("browser")
+    public void setUp(String browser) {
+        WebDriverSingleton.setBrowser(browser);
         driver = WebDriverSingleton.getDriver();
         driver.manage().window().maximize();
         practiceFormPage = new PracticeFormPage(driver);

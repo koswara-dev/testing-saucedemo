@@ -9,9 +9,16 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class WebDriverSingleton {
 
     private static WebDriver driver;
+    private static String browser = System.getProperty("browser", "firefox-headless");
 
     private WebDriverSingleton() {
         // private constructor to prevent instantiation
+    }
+
+    public static void setBrowser(String browserValue) {
+        if (browserValue != null && !browserValue.isEmpty()) {
+            browser = browserValue.toLowerCase();
+        }
     }
 
     public static WebDriver getDriver() {
@@ -29,9 +36,12 @@ public class WebDriverSingleton {
     }
 
     private static WebDriver createDriver() {
-        String browser = System.getProperty("browser", "firefox-headless").toLowerCase();
+        String currentBrowser = browser;
+        if (currentBrowser == null || currentBrowser.isEmpty()) {
+            currentBrowser = System.getProperty("browser", "firefox-headless").toLowerCase();
+        }
 
-        switch (browser) {
+        switch (currentBrowser.toLowerCase()) {
             case "chrome-headless":
                 return initChrome(true);
             case "firefox":
