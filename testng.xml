@@ -16,4 +16,10 @@
         </classes>
     </test>
 
+    <test name="Menu Tests">
+        <classes>
+            <class name="com.juaracoding.MenuTest" />
+        </classes>
+    </test>
+
 </suite>

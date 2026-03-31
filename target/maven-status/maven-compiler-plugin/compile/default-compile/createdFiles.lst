@@ -1,5 +1,6 @@
 com\juaracoding\drivers\WebDriverSingleton.class
 com\juaracoding\pages\LoginPage.class
+com\juaracoding\pages\MenuPage.class
 com\juaracoding\utils\Utils.class
 com\juaracoding\pages\PracticeFormPage.class
 com\juaracoding\pages\WebTablesPage.class

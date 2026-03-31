@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T21:14:32 WIB" name="SauceDemo Test Suite" finished-at="2026-03-31T21:15:32 WIB" duration-ms="59650">
+  <suite started-at="2026-03-31T21:27:29 WIB" name="SauceDemo Test Suite" finished-at="2026-03-31T21:28:40 WIB" duration-ms="71933">
     <groups>
     </groups>
-    <test started-at="2026-03-31T21:14:32 WIB" name="Login Tests" finished-at="2026-03-31T21:14:59 WIB" duration-ms="27182">
+    <test started-at="2026-03-31T21:27:29 WIB" name="Login Tests" finished-at="2026-03-31T21:28:01 WIB" duration-ms="32679">
       <class name="com.juaracoding.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:14:32 WIB" name="setUp" finished-at="2026-03-31T21:14:43 WIB" duration-ms="10797" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:27:29 WIB" name="setUp" finished-at="2026-03-31T21:27:39 WIB" duration-ms="10504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginNegative()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:14:43 WIB" name="testLoginNegative" finished-at="2026-03-31T21:14:44 WIB" duration-ms="897" status="PASS">
+        <test-method signature="testLoginNegative()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:27:39 WIB" name="testLoginNegative" finished-at="2026-03-31T21:27:40 WIB" duration-ms="819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginNegative -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:14:44 WIB" name="tearDown" finished-at="2026-03-31T21:14:50 WIB" duration-ms="6344" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:27:40 WIB" name="tearDown" finished-at="2026-03-31T21:27:48 WIB" duration-ms="7879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:14:50 WIB" name="setUp" finished-at="2026-03-31T21:14:57 WIB" duration-ms="6706" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:27:48 WIB" name="setUp" finished-at="2026-03-31T21:27:54 WIB" duration-ms="6361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,19 +37,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPositive()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:14:57 WIB" name="testLoginPositive" finished-at="2026-03-31T21:14:57 WIB" duration-ms="432" status="PASS">
+        <test-method signature="testLoginPositive()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:27:54 WIB" name="testLoginPositive" finished-at="2026-03-31T21:27:55 WIB" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPositive -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:14:57 WIB" name="tearDown" finished-at="2026-03-31T21:14:59 WIB" duration-ms="1937" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.LoginTest@20deea7f]" started-at="2026-03-31T21:27:55 WIB" name="tearDown" finished-at="2026-03-31T21:28:01 WIB" duration-ms="6429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.juaracoding.LoginTest -->
     </test> <!-- Login Tests -->
-    <test started-at="2026-03-31T21:14:32 WIB" name="PracticeForm Tests" finished-at="2026-03-31T21:15:32 WIB" duration-ms="59650">
-      <class name="com.juaracoding.PracticeFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.PracticeFormTest@72967906]" started-at="2026-03-31T21:14:32 WIB" name="setUp" finished-at="2026-03-31T21:15:24 WIB" duration-ms="51720" status="PASS">
+    <test started-at="2026-03-31T21:28:01 WIB" name="Menu Tests" finished-at="2026-03-31T21:28:40 WIB" duration-ms="39201">
+      <class name="com.juaracoding.MenuTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.MenuTest@35e2d654]" started-at="2026-03-31T21:28:01 WIB" name="setUp" finished-at="2026-03-31T21:28:34 WIB" duration-ms="32867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,156 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPracticeForm()[pri:0, instance:com.juaracoding.PracticeFormTest@72967906]" started-at="2026-03-31T21:15:24 WIB" name="testPracticeForm" finished-at="2026-03-31T21:15:32 WIB" duration-ms="7873" status="PASS">
+        <test-method signature="testMenuHoverAndAction()[pri:0, instance:com.juaracoding.MenuTest@35e2d654]" started-at="2026-03-31T21:28:34 WIB" name="testMenuHoverAndAction" description="Test hovering over menu items and clicking on Sub Sub Item 2" finished-at="2026-03-31T21:28:34 WIB" duration-ms="299" status="FAIL">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Origin element [object Object] {"element-6066-11e4-a52e-4f735466cecf":"f2b7ccb3-a7eb-4357-b8f8-bf14811e7b0f"} is not displayed
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54bad772-1914-4f03-b205-9eed1564c471, actions {actions=[org.openqa.selenium.interactions.Sequence@16cee034]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 149.0, moz:accessibilityChecks: false, moz:buildID: 20260318190823, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 38644, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54bad772-1914-4f03-b205-9eed1564c471]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element [object Object] {"element-6066-11e4-a52e-4f735466cecf":"f2b7ccb3-a7eb-4357-b8f8-bf14811e7b0f"} is not displayed
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54bad772-1914-4f03-b205-9eed1564c471, actions {actions=[org.openqa.selenium.interactions.Sequence@16cee034]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 149.0, moz:accessibilityChecks: false, moz:buildID: 20260318190823, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 38644, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54bad772-1914-4f03-b205-9eed1564c471
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:699)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at com.juaracoding.pages.MenuPage.hoverSubSubList(MenuPage.java:38)
+at com.juaracoding.MenuTest.testMenuHoverAndAction(MenuTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuHoverAndAction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.MenuTest@35e2d654]" started-at="2026-03-31T21:28:34 WIB" name="tearDown" finished-at="2026-03-31T21:28:40 WIB" duration-ms="6018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.MenuTest -->
+    </test> <!-- Menu Tests -->
+    <test started-at="2026-03-31T21:27:29 WIB" name="PracticeForm Tests" finished-at="2026-03-31T21:28:40 WIB" duration-ms="71933">
+      <class name="com.juaracoding.PracticeFormTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.juaracoding.PracticeFormTest@72967906]" started-at="2026-03-31T21:27:29 WIB" name="setUp" finished-at="2026-03-31T21:28:26 WIB" duration-ms="57436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPracticeForm()[pri:0, instance:com.juaracoding.PracticeFormTest@72967906]" started-at="2026-03-31T21:28:26 WIB" name="testPracticeForm" finished-at="2026-03-31T21:28:36 WIB" duration-ms="9654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPracticeForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.PracticeFormTest@72967906]" started-at="2026-03-31T21:15:32 WIB" name="tearDown" finished-at="2026-03-31T21:15:32 WIB" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.PracticeFormTest@72967906]" started-at="2026-03-31T21:28:36 WIB" name="tearDown" finished-at="2026-03-31T21:28:40 WIB" duration-ms="4792" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54bad772-1914-4f03-b205-9eed1564c471, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 149.0, moz:accessibilityChecks: false, moz:buildID: 20260318190823, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 38644, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54bad772-1914-4f03-b205-9eed1564c471, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 149.0, moz:accessibilityChecks: false, moz:buildID: 20260318190823, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 38644, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:690)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:505)
+at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:278)
+at com.juaracoding.drivers.WebDriverSingleton.quitDriver(WebDriverSingleton.java:33)
+at com.juaracoding.PracticeFormTest.tearDown(PracticeFormTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:815)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:791)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@6ed75ce0[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2fea56db[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001d0811eab70@2bd5d7fe]] rejected from java.util.concurrent.ThreadPoolExecutor@4a762d21[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 42]
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+... 32 more
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@6ed75ce0[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2fea56db[Wrapped task = org.openqa.selenium.remote.http.jdk.JdkHttpClient$$Lambda/0x000001d0811eab70@2bd5d7fe]] rejected from java.util.concurrent.ThreadPoolExecutor@4a762d21[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 42]
+at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.executeAsync(JdkHttpClient.java:386)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:415)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:220)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
